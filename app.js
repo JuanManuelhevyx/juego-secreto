@@ -42,9 +42,9 @@ function limpiarCaja(){
 function asignarNumeroSecreto(){
     let numeroAleatorio =  Math.floor(Math.random()*numeroMaximo)+1;
 
-    // Si el numero aleatoiro se encuentra en la lista
-    console.log(listaNumerosSorteados);
-    console.log(numeroSecreto);
+    // Si el numero aleatorio se encuentra en la lista
+    //console.log(listaNumerosSorteados);
+    //console.log(numeroSecreto);
 
     if(listaNumerosSorteados.length == numeroMaximo){
         asignarTextoElemento('p','Ya se han usado todos los numeros disponibles');
